@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Intro": {
+      "commandName": "Project",
+      "commandLineArgs": "Debug mode"
+    }
+  }
+}
