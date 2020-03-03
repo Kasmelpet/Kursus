@@ -42,6 +42,7 @@ namespace _80_1
             }
             avg = sum / 100000;
             Console.WriteLine($"Gennemsnit af 100000 rystning er: {avg.ToString("N2")}");
+            Console.WriteLine("Slut");
 
         }
     }
