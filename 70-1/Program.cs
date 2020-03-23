@@ -15,8 +15,9 @@ namespace _65_1
 
         private static void PrintSortedSalary(int[] salary)
         {
-            Array.Sort(salary);
-            PrintSalary(salary);
+            int [] copy  = salary.Clone() as int[];
+            Array.Sort(copy);
+            PrintSalary(copy);
         }
 
         private static void PrintAvgSalary(int[] salary)
