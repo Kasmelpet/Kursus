@@ -6,7 +6,7 @@ namespace _80_6
     {
         static void Main(string[] args)
         {
-            Beregninger b = new Beregninger();
+            //Beregninger b = new Beregninger();
 
             int res = Beregninger.LægSammen(1, 1);
             Console.WriteLine(res);
